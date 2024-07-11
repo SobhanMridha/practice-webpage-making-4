@@ -237,6 +237,7 @@
 .deals input {
   width: 500px;
   height: 64px;
+  font-size: 24px;
   background-color: #ffffff;
   border-radius: 8px;
   margin-right: 16px;
