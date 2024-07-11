@@ -136,7 +136,7 @@
 }
 
 .delivery-info p {
-  color: #272727CC;
+  color: #272727cc;
   font-size: 24px;
   font-weight: 600;
 }
@@ -151,4 +151,38 @@
 
 .delivery-call {
   text-align: center;
+}
+
+/* sale section  */
+
+.sale-container {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #e554730d;
+  margin-bottom: 100px;
+}
+
+.sale-des {
+  text-align: center;
+}
+
+.sale-container h4 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.sale-container p {
+  margin-bottom: 32px;
+}
+
+.sale-container span {
+  color: #e55473;
+  font-size: 40px;
+  font-weight: 800;
 }
