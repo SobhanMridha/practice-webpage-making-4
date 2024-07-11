@@ -24,7 +24,7 @@
 
 .paragraph {
   color: #27272799;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400px;
 }
 
@@ -163,7 +163,6 @@
   align-items: center;
   border-radius: 8px;
   background-color: #e554730d;
-  margin-bottom: 100px;
 }
 
 .sale-des {
@@ -185,4 +184,67 @@
   color: #e55473;
   font-size: 40px;
   font-weight: 800;
+}
+
+/* instagram section  */
+
+.insta-container {
+  margin: 128px 242px;
+}
+
+.insta-des {
+  text-align: center;
+}
+
+.insta-des h4 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.insta-des p {
+  margin-bottom: 48px;
+}
+
+.flower-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.card:hover {
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.deals {
+  padding: 122px 287px;
+  text-align: center;
+  background-image: url(Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.deals h4 {
+  margin-bottom: 16px;
+}
+
+.deals p {
+  margin-bottom: 48px;
+}
+
+.deals input {
+  width: 500px;
+  height: 64px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+input::placeholder {
+  color: #27272799;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px;
 }
